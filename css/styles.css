@@ -1,7 +1,17 @@
 /* styles.css */
-.custom-font {
-    font-family: "Raleway", sans-serif;
+body {
+    font-family: 'Open Sans', sans-serif;
 }
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+p, ul, li {
+    font-family: 'Open Sans', sans-serif;
+}
+div {
+    font-family: 'Open Sans', sans-serif;
+}
+
 .bgimg {
     background-color: #000D1E;
     height: 100vh;
@@ -18,7 +28,7 @@
     left: 10px;
 }
 .logo {
-    width: 150px; /* Adjust the width as needed */
+    width: 125px;
     height: auto;
 }
 .content {
