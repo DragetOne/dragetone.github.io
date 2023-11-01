@@ -15,17 +15,17 @@ body {
 }
 
 .center-logo {
-    margin-top: 10px;
+    margin-top: 0px;
 }
 
 .logo {
     max-width: 100%;
     height: auto;
-    max-height: 300px;
+    max-height: 250px;
 }
 
 .text {
-    font-size: 24px;
+    font-size: 25px;
 }
 
 .text hr {
