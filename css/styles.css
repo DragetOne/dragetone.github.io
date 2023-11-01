@@ -1,60 +1,43 @@
-/* styles.css */
 body {
-    font-family: 'Open+Sans', sans-serif;
-}
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Open+Sans', sans-serif;
-}
-p, ul, li {
-    font-family: 'Open+Sans', sans-serif;
-}
-div {
-    font-family: 'Open+Sans', sans-serif;
-}
-
-.bgimg {
-    background-color: #000D1E;
-    height: 100vh;
+    margin: 0;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white;
-    position: relative;
+    background-color: #000626;
 }
-.logo-container {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-}
-.logo {
-    width: 125px;
-    height: auto;
-}
-.content {
+
+.container {
     text-align: center;
+    padding: 20px;
+    color: white;
+    width: 80%;
+    max-width: 800px;
 }
-.custom-heading {
-    font-size: 6em;
-    margin: 0;
+
+.center-logo {
+    margin-top: 100px;
 }
-.custom-border {
-    width: 40%;
-    border: 1px solid #888;
+
+.logo {
+    max-width: 100%;
+    height: auto;
+    max-height: 300px;
 }
-.custom-text {
-    font-size: 1.5em;
+
+.text {
+    font-size: 24px;
 }
-.footer {
-    position: absolute;
-    bottom: 10px;
-    left: 10px;
-    padding: 10px;
-    color: #ccc;
+
+.text hr {
+    width: 50%;
+    margin: 20px auto;
+    border: 1px solid #FFF;
 }
-/* Media query for smaller devices */
-@media (max-width: 768px) {
-    .custom-heading {
-        font-size: 3em;
-    }
+
+.policy {
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    background: white;
 }
