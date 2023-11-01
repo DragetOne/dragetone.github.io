@@ -1,0 +1,50 @@
+/* styles.css */
+.custom-font {
+    font-family: "Raleway", sans-serif;
+}
+.bgimg {
+    background-color: #000D1E;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+}
+.logo-container {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.logo {
+    width: 150px; /* Adjust the width as needed */
+    height: auto;
+}
+.content {
+    text-align: center;
+}
+.custom-heading {
+    font-size: 6em;
+    margin: 0;
+}
+.custom-border {
+    width: 40%;
+    border: 1px solid #888;
+}
+.custom-text {
+    font-size: 1.5em;
+}
+.footer {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    padding: 10px;
+    color: #ccc;
+}
+/* Media query for smaller devices */
+@media (max-width: 768px) {
+    .custom-heading {
+        font-size: 3em;
+    }
+}
