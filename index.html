@@ -11,14 +11,40 @@
 </head>
 <body>
 <div class="container">
-    <div class="center-logo">
-        <img src="images/dragetone-logo.jpeg" alt="DRAGET One Logo" class="logo">
+    <div class="company-info">
+        <div class="company-logo">
+            <img src="images/dragetone-logo.jpeg" alt="DRAGET One Logo" class="logo">
+        </div>
     </div>
+
+    <div class="carousel-container">
+        <div id="appCarousel" class="carousel" role="listbox" aria-live="polite">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/age-calculator-playstore.png" alt="Age Calculator">
+                    <div class="app-name">Age Calculator</div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/flag-quiz-playstore.png" alt="Flag Quiz">
+                    <div class="app-name">Flag Quiz</div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" onclick="changeSlide(-1)">&#10094;</button>
+            <button class="carousel-control-next" onclick="changeSlide(1)">&#10095;</button>
+        </div>
+    </div>
+
+    <!-- Add the Button -->
+    <a href='https://play.google.com/store/apps/dev?id=4719933413942799963&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'
+       class="google-play-badge" target="_blank">
+        <img alt='Get it on Google Play' src='images/google-play-badge.png'/>
+    </a>
     <div class="text">
-        <h1>COMING SOON</h1>
         <hr>
         <p>Something amazing is on the way. Stay tuned!</p>
     </div>
 </div>
+
+<script src="js/script.js"></script>
 </body>
 </html>
