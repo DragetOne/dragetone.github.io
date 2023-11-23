@@ -8,43 +8,30 @@ body {
 
 .container {
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     color: white;
     width: 80%;
     max-width: 800px;
 }
 
-.carousel-container {
-    margin-top: 150px;
-}
-
 .company-info {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    margin-bottom: 20px;
+}
+
+.company-name {
+    color: #FFF;
+    font-size: 18px;
 }
 
 .company-logo {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    padding: 10px;
+    padding: 0px;
 }
 
 .logo {
     max-width: 100px;
     height: auto;
-}
-
-.text {
-    font-size: 20px;
-}
-
-.text hr {
-    width: 50%;
-    margin: 20px auto;
-    border: 1px solid #FFF;
 }
 
 .policy {
@@ -56,18 +43,22 @@ body {
 }
 
 .google-play-badge {
-     display: block;
-     margin: 20px auto;
-     width: 200px; /* Adjust the width of the button as needed */
- }
+    display: block;
+    margin: 20px auto;
+    width: 200px; /* Adjust the width of the button as needed */
+}
 
- .google-play-badge img {
-     width: 100%;
-     height: auto;
-     display: block;
- }
+.google-play-badge img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
 
 /* CSS Styles for Carousel - Start */
+.carousel-container {
+    margin-top: 10px;
+}
+
 .carousel {
     position: relative;
     overflow: hidden;
@@ -122,10 +113,29 @@ body {
 .carousel-control-next {
     right: 10px;
 }
-
-@media screen and (min-width: 600px) {
-     .carousel {
-         max-width: 800px;
-     }
- }
 /* CSS Styles for Carousel - End */
+
+/* CSS Styles for Responsive Design - Start */
+@media screen and (max-width: 600px) {
+    /* Styles for screens 600px and smaller */
+    .carousel-item img {
+        width: 80%; /* Adjusted image size for smaller screens */
+    }
+
+    .text {
+        font-size: 16px; /* Adjusted font size for smaller screens */
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        font-size: 16px; /* Adjusted font size for smaller screens */
+    }
+}
+
+@media screen and (min-width: 768px) {
+    /* Additional styles for tablets and larger screens */
+    .carousel {
+        max-width: 800px;
+    }
+}
+/* CSS Styles for Responsive Design - End */

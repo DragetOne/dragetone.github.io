@@ -1,4 +1,3 @@
-// JavaScript
 let currentIndex = 0;
 let timer;
 
@@ -25,7 +24,7 @@ function changeSlide(direction) {
 
 function resetTimer() {
     clearInterval(timer);
-    timer = setInterval(() => changeSlide(1), 7000); // Change slide every 7 seconds (adjust as needed)
+    timer = setInterval(() => changeSlide(1), 7000); // Change slide every 7 seconds
 }
 
 // Initial timer setup
