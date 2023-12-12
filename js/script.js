@@ -24,7 +24,7 @@ function changeSlide(direction) {
 
 function resetTimer() {
     clearInterval(timer);
-    timer = setInterval(() => changeSlide(1), 5000); // Change slide every 5 seconds
+    timer = setInterval(() => changeSlide(1), 3000); // Change slide every 3 seconds
 }
 
 // Initial timer setup
